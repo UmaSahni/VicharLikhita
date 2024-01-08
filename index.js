@@ -41,7 +41,7 @@ app.listen(port, async () => {
     await connection;
     console.log(colors.bgYellow(`connectd to mongo db`));
   } catch (error) {
-    console.log(colors.bgRed("Error in connting mongoDb"));
+    console.log(colors.bgRed("Error in connecting mongoDb"));
   }
   console.log(colors.rainbow(`Backend is running on port ${port}`));
 });
